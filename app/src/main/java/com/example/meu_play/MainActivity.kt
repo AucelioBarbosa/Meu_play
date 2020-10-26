@@ -16,6 +16,5 @@ class MainActivity : AppCompatActivity() {
         btn_play.setOnClickListener(mediaPlayer?.start())
         btn_pause.setOnClickListener(mediaPlayer?.pause())
         btn_stop.setOnClickListener(mediaPlayer?.stop())
-
     }
 }
