@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.media.MediaPlayer
 class MainActivity : AppCompatActivity() {
 
-    private var mediaPlayer? = null
+    private var mediaPlayer:MediaPlayer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
