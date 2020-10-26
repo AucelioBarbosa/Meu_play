@@ -13,6 +13,10 @@ class MainActivity : AppCompatActivity() {
 
         mediaPlayer = MediaPlayer.create(this,R.raw.WishYoudComeTrue)
 
+        btn_play.setOnClickListener(mediaPlayer?.start())
+        btn_pause.setOnClickListener(mediaPlayer?.pause())
+        btn_stop.setOnClickListener(mediaPlayer?.stop())
+
 
     }
 }
